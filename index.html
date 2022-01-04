@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/icons/icontab.png" />
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="contanier-myfoto">
+            <img src=".\assets\img\My foto.jpg"  alt="my foto">
+        </div>
+        <div class="contanier-name">
+            <h1>Dmitriy Kedik</h1>
+            <nav class="contanier-nav">
+                <ul class="nav-list1">
+                    <li class="items-nav">
+                        <a href="#about">
+                            <h3>About</h3>
+                        </a>  
+                    </li>
+                    <li class="items-nav">
+                        <a href="#edu">
+                            <h3>Education</h3>
+                        </a> 
+                    </li>
+                    <li class="items-nav">
+                        <a href="#code">
+                            <h3>Code exemple</h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="contenier">
+        <aside class="contanier-panel">
+            <div class="section-panel">
+                <h2>Contacts:</h2>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">Location: Minsk, Belarus</li>
+                <li class="nav-item">Email: kedik.grsvdima1997@yandex.by</li>
+                <li class="nav-item">Phone: +375(33)3847504</li>
+            </ul>
+            <div class="section-panel">
+                <h2>Skills:</h2>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">VS code</li>
+                <li class="nav-item">HTML5</li>
+                <li class="nav-item">Git</li>
+                <li class="nav-item">CSS</li>
+            </ul>
+            <div class="section-panel">
+                <h2>Languages:</h2>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">English-in progres;</li>
+                <li class="nav-item">Rusian-native</li>
+                <li class="nav-item">Belarusian-native</li>
+            </ul>
+        </aside>
+        <div class="contanier-nav-main">
+            <main class="contanier-main">
+                <ul class="nav-list">
+                    <li class="items">
+                        <h2 id="about">About</h2>
+                    </li>
+                        <p>Graduated from university in 2020, currently I work as a system administrator</p>
+                    <li class="items">
+                        <h2 id="edu">Education</h2>
+                    </li>
+                        <p>Higher technical education</p>
+                    <li class="items">
+                        <h2 id="code">Сode example</h2>
+                    </li> 
+                    <pre class="code-example">
+                        <code>
+    public class Max {    
+        public static void main(String[] args) {        
+            Scanner s = new Scanner(System.in);
+            System.out.println("Размер массива: ");
+            int a = s.nextInt();
+            int[] array = new int[a];
+            int max = array[0]; 
+            System.out.println("Введите числа в массив: ");
+            for(int i = 0; i < array.length; i++) {
+                array[i] = s.nextInt();
+            }           
+            for(int i = 0; i < array.length; i++) {
+                if(array[i] > max) 
+                    max = array[i];
+            }
+            System.out.println("Максимальное число: " + max);           
+        }    
+    }                                                    
+                        </code>
+                    </pre>
+                </ul>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="contanier-footer">
+            <ul class="item-footer">
+                <li class="nitem">
+                    <a href="https://github.com/DimaRK1997"> 
+                        <img src="./assets/icons/github.svg"  class="github" alt="Git-logo"/>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="1DiMaS1K#5002">
+                        <img src="./assets/icons/foto-discord.png" class="discord" alt="Discord-logo"/>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="https://rs.school/js/"> 
+                        <img src="./assets/icons/rs_school_js.svg" class="rsschool" alt="RS-logo"/>
+                    </a>
+                </li>
+                <li class="item">
+                    2022
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

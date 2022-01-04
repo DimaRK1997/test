@@ -1,0 +1,113 @@
+body {
+    max-width: 1024px;
+    min-width: 720px;
+    margin: 0 auto;
+    background: url(./assets/img/fon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.contanier-myfoto{
+    object-fit: cover;
+    margin: 15px;
+    text-align: center; 
+}
+.contanier-name{
+    width: 60%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenier{
+    display: flex;
+    justify-content: center;   
+}
+.contanier-panel{
+    width: 32%;
+    margin: 15px;
+}
+.contanier-nav-main{
+    margin: 15px;
+    width: 60%;
+}
+.contanier-nav{
+    background: rgb(129, 187, 106);
+   
+}
+.contanier-main{
+    width: 100%;
+    min-height: 20vh;
+}
+.contanier-footer{
+    margin: auto;
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-around;
+}
+.item-footer{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.item{
+    margin: 20px;
+}
+h1{
+    font-size: 3.5rem;
+    margin: 5px;
+}
+.items-nav{
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    line-height: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h2{
+    font-size: 2.3rem;
+}
+.nav-item{
+    font-size: 1.2rem;
+    list-style: circle;
+    margin: 5px;
+}
+.items{
+    list-style: none;
+}
+p{
+    font-size: 1.4rem;
+}
+.code-example{
+    width: 520px;
+    font-size: 0.9rem;
+    background: rgb(167, 165, 165);
+}
+.nav-list1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+h3{
+    font-size: 1.6rem;
+}
+.github{
+    width: 60px;
+    height: 30px;
+}
+.discord{
+    width: 120px;
+    height: 40px;
+}
+.rsschool{
+    width: 80px;
+    height: 80px;
+}
