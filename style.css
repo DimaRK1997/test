@@ -1,6 +1,6 @@
 body {
     max-width: 1024px;
-    min-width: 720px;
+    min-width: 900px;
     margin: 0 auto;
     background: url(./assets/img/fon.jpg);
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ header{
 }
 .contenier{
     display: flex;
-    justify-content: center;   
+    justify-content: center;
 }
 .contanier-panel{
     width: 32%;
@@ -79,9 +79,6 @@ h2{
     font-size: 1.2rem;
     list-style: circle;
     margin: 5px;
-}
-.items{
-    list-style: none;
 }
 p{
     font-size: 1.4rem;
